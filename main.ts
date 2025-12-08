@@ -19,7 +19,7 @@ weightAsString = prompt("How much do you weigh in kg? ") || "0";
 weightAsNumber = parseFloat(weightAsString);
 
 // check if weight is permitted
-if (weightAsNumber >= 77 && weightAsNumber <= 105) {
+if (weightAsNumber >= MIN_WEIGHT && weightAsNumber <= MAX_WEIGHT) {
   console.log("You may enter the contest");
 }
 
